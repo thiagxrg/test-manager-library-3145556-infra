@@ -27,7 +27,7 @@ services:
       DB_USERNAME: library
       DB_PASSWORD: library
       ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
-      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-change-me}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-ManLib2026!}
       CORS_ORIGIN: http://localhost:5173
     ports:
       - "8000:8000"
